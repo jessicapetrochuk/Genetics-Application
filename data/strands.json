@@ -1,0 +1,10 @@
+{
+  "RNA Strands": [{"sequence": "AAAUUU"}],
+  "DNA Strands": [
+    {"sequence": "AAACCC"},
+    {"sequence": "AAACCC"},
+    {"sequence": "AAA"},
+    {"sequence": "AAACCC"}
+  ],
+  "Name": "Jessica's strands"
+}
