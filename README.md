@@ -26,17 +26,6 @@ This application, if DNA given as an input, transcribes the DNA into RNA and fur
 * As a user, I want to have an option to reload my list of DNA and RNA strands from a file when starting the application
 * As a user, if I do not load a file before saving new strands, any previous files will be overwritten 
 
-#Phase 4: Task 2
-The CodonToAmino uses the Map interface. DnaList and RnaList class' addStrandToList method have robust design
-. RnaStrand and DnaStrand class' addToStrand method have robust design. 
-
-#Phase 4: Task 3
-The progression of the code is logical on the UML diagram, and I would likely not change very much but one large
- improvement that could be made is refactoring/ factoring out duplicate code. For example in GeneticsApplication the
-  panel for DNA and RNA strands look very similar with only minor differences but code is written fully for both. A
-   similar issue is present for DnaStrand and RnaStrand as well as DnaList and RnaList. This improvement would help
-    to improve coupling in the system. 
-
 #Citations
 Data persistence added using the following as a template:  https://github.students.cs.ubc.ca/CPSC210
 /JsonSerializationDemo.git
